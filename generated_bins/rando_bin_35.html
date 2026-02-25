@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Games — rando_bin_35.html</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.7.4/dash.all.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #1b2838;
+            color: #c6d4df;
+            padding: 24px;
+        }
+        h1 {
+            color: #66c0f4;
+            text-align: center;
+            margin-bottom: 28px;
+            font-size: 1.8rem;
+            letter-spacing: 0.04em;
+        }
+        table {
+            width: auto;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background: #16202d;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+        }
+        thead { background: #1e3a5f; }
+        th {
+            padding: 14px 20px;
+            text-align: left;
+            font-size: 0.85rem;
+            color: #66c0f4;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        td {
+            padding: 18px 20px;
+            border-bottom: 1px solid #2a3f5f;
+            vertical-align: middle;
+        }
+        tr:last-child td { border-bottom: none; }
+        tr:hover { background: #1a2e47; }
+        .name-cell { min-width: 180px; }
+        .name-cell a {
+            color: #66c0f4;
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 4px;
+        }
+        .name-cell a:hover { text-decoration: underline; color: #a0d4f5; }
+        .app-id { font-size: 0.75rem; color: #7a8fa8; }
+        .video-wrapper video {
+            display: block;
+            border-radius: 6px;
+            background: #000;
+            max-width: 100%;
+        }
+        .no-trailer { color: #7a8fa8; font-style: italic; }
+        .error-msg { color: #e06c6c; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <h1>🎮 Steam Games</h1>
+    <table>
+        <thead>
+            <tr><th>Game</th><th>Trailer</th></tr>
+        </thead>
+        <tbody>
+            
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4063070/" target="_blank">Billiard of Chaos Demo</a>
+                <div class="app-id">App ID: 4063070</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4063070"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4063070/97915419/1304c7dabf4bb5bfdf7d3d7759f7d456d443da5f/1762520996/dash_av1.mpd?t=1762522367"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4063070/9806f3ca5d8b089c2df03dde156deaf180ee12a8/header.jpg?t=1771301053"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4276120/" target="_blank">orrb [demo]</a>
+                <div class="app-id">App ID: 4276120</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4276120"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4276120/2021565344/fae7b4d1d905eda8be72504b7f8b2215cee0ec0c/1770605701/dash_av1.mpd?t=1770607663"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4276120/11f69e329100818951db6dc7b6c282e7feffb8b8/header.jpg?t=1771519679"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4186990/" target="_blank">女儿国的诅咒 Demo</a>
+                <div class="app-id">App ID: 4186990</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4186990"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4186990/497719912/780848e5fe761937512d28dbf245985c1c8e8db5/1768783250/dash_av1.mpd?t=1768784149"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4186990/17adf6ada8043bfe69e89a37fd21867318464c27/header.jpg?t=1771866681"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4221830/" target="_blank">Patent Tycoon Demo</a>
+                <div class="app-id">App ID: 4221830</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4221830"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4221830/2142453228/ad43efeac38511819a49a4689541a9c8053dbd70/1766138660/dash_av1.mpd?t=1766139247"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4221830/0a42504b9d3455729a0551f46839347b60bc450b/header.jpg?t=1768712927"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4252400/" target="_blank">Beastfall Demo</a>
+                <div class="app-id">App ID: 4252400</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4252400"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4217250/602863207/4ab90ec3ef9a282681234baa46b9611e3311dc84/1770503439/dash_av1.mpd?t=1770510348"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4252400/27871f9e4d213523cecda53c64f03f772ebb7f5c/header.jpg?t=1770899631"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4288210/" target="_blank">Genome Guardian 2 Demo</a>
+                <div class="app-id">App ID: 4288210</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4288210"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4130120/1923066418/61f233cd0e5e770f1a5c2d5f248eba397dff382e/1768541476/dash_av1.mpd?t=1770323986"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4288210/f2885a2fc68db6ca57101f5553e09e4e5c6da47b/header.jpg?t=1770919478"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4213590/" target="_blank">Tiling Forest - Tiling Town Demo</a>
+                <div class="app-id">App ID: 4213590</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4213590"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4213590/13362997/81d15e029217ab7c4a063a1f382c2af6e457b08e/1769242102/dash_av1.mpd?t=1769736381"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4213590/80143dc2161f4ffc7bb1f968e9e25cce087703ce/header.jpg?t=1771409234"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/3565830/" target="_blank">Under Par Golf Architect Demo</a>
+                <div class="app-id">App ID: 3565830</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-3565830"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/3565830/902270805/1ab3c62fc3ebde44966f6600b368c74fcdd6cd04/1763049792/dash_av1.mpd?t=1763393476"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565830/0ceea7a75a2a01ecaf588b0c13bdcf5ac5b5efd6/header.jpg?t=1765281211"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4350420/" target="_blank">Wartide Demo</a>
+                <div class="app-id">App ID: 4350420</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4350420"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4303660/370243040/c21a7a38c86a718f9236743025eb49796d0a3c03/1769123220/dash_av1.mpd?t=1769123834"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4350420/d549b930188786678f35cd12a18bf6ebbf6d61f4/header.jpg?t=1770146931"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4413980/" target="_blank">Twiggle’s Grove Demo</a>
+                <div class="app-id">App ID: 4413980</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4413980"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4037120/1807931733/1340403cfe784aff51ec09ff4854716af23f303f/1770914304/dash_av1.mpd?t=1770915111"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4413980/6885eb4aa710ffdf68d2a528a7db6e5a1bac1020/header.jpg?t=1771507272"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4236920/" target="_blank">Gallipoli Trenches: The Forgotten Front Demo</a>
+                <div class="app-id">App ID: 4236920</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4236920"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4131480/1595533195/a7b25ca76da699c4d720836afe0342deb490a1da/1771845827/dash_av1.mpd?t=1771847220"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236920/03aeaeca4aae1df75a05f170270b4f124156cdc8/header.jpg?t=1769019522"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4414150/" target="_blank">Socks! Demo</a>
+                <div class="app-id">App ID: 4414150</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4414150"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4299760/561609828/47f1e56cb4c838e40e893bc5683c7f961960c71e/1767362376/dash_av1.mpd?t=1768330820"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4414150/4fca92f7ecb8ea9fd0eec9633a972acd38e33c94/header.jpg?t=1770869512"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4238840/" target="_blank">一ノ一 Demo</a>
+                <div class="app-id">App ID: 4238840</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4238840"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4238840/1889035592/424370b1d0a66e0653c59d7821f49e6e1849b434/1765548181/dash_av1.mpd?t=1765548327"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4238840/c67456561123f74882729bb788cc1388795ce6c2/header.jpg?t=1768042212"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4225460/" target="_blank">Astromine Demo</a>
+                <div class="app-id">App ID: 4225460</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4225460"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4225460/1279410605/2b3298b17534baef71d3fea77f2172b76e3f446d/1770175616/dash_av1.mpd?t=1771809136"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4225460/3f26f7f3ccb2fd94a938c95c3d528adc92cad1ad/header.jpg?t=1771809137"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/2906630/" target="_blank">Toward The Ice Demo</a>
+                <div class="app-id">App ID: 2906630</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-2906630"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/2878110/1868740859/461478d1932e3b87697894338944ed7bce16d202/1764698579/dash_av1.mpd?t=1764699532"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2906630/7dab62a62e3e3a8a2f2ad5ddbd3d65c281c9f6d0/header.jpg?t=1771360917"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4400380/" target="_blank">Chop Chop: Together Demo</a>
+                <div class="app-id">App ID: 4400380</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4400380"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4400380/1069327013/db19b7a64cbcc91dbed06ecb80b97bad005ae524/1771859399/dash_av1.mpd?t=1771859866"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4400380/a70f8d81e59c2f7e34d3d5f870416605ef42f41e/header.jpg?t=1771870094"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4393380/" target="_blank">Directory Dungeon Demo</a>
+                <div class="app-id">App ID: 4393380</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4393380"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/3333010/79926046/053c58911a0bd48c634838f90aaefd3e36142a94/1767974988/dash_av1.mpd?t=1769423948"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4393380/842f1b8debff25d9f9cedb7f282f823ec701c8d9/header.jpg?t=1770314828"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/4142770/" target="_blank">DivineBlaze : March Tactics Demo</a>
+                <div class="app-id">App ID: 4142770</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-4142770"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/4142770/730337283/e4d3d3d2a3700ca203f6526b31af7d1bc2dae9a2/1771202543/dash_av1.mpd?t=1771203478"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4142770/c9b564ea5d0da998061a33775481140aad3a5d6b/header.jpg?t=1771203479"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/3460180/" target="_blank">Rank: Warmaster Bunker Buster Demo</a>
+                <div class="app-id">App ID: 3460180</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-3460180"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/3460180/970628649/a7ea358307b8cd88514fcc42c584debdd064ebb5/1762732279/dash_av1.mpd?t=1762735074"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460180/de4686600553c43d8200c79c54cdde0ce9c95f00/header.jpg?t=1763668886"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="name-cell">
+                <a href="https://store.steampowered.com/app/3991240/" target="_blank">镇邪Ⅱ Demo</a>
+                <div class="app-id">App ID: 3991240</div>
+            </td>
+            <td class="trailer-cell">
+                
+                <div class="video-wrapper">
+                    <video
+                        id="video-3991240"
+                        data-mpd="https://video.fastly.steamstatic.com/store_trailers/3399780/1513275970/8284e217e0b082261dfd9a7544ec0a603486a4f8/1770348316/dash_av1.mpd?t=1770349105"
+                        poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3991240/d0a26699197e755269d9496d390ab8f2b9671b72/header.jpg?t=1771843143"
+                        muted
+                        controls
+                        width="960"
+                        preload="none">
+                    </video>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('video[data-mpd]').forEach(function (videoEl) {
+            var mpdUrl = videoEl.getAttribute('data-mpd');
+            if (!mpdUrl) return;
+
+            var player = null;
+            var ready = false;
+            var pendingPlay = false;
+
+            function initPlayer() {
+                if (player) return;
+                try {
+                    player = dashjs.MediaPlayer().create();
+                    player.initialize(videoEl, mpdUrl, false);
+                    player.updateSettings({
+                        streaming: { abr: { autoSwitchBitrate: { video: true } } }
+                    });
+                    player.on(dashjs.MediaPlayer.events.CAN_PLAY, function () {
+                        ready = true;
+                        if (pendingPlay) {
+                            pendingPlay = false;
+                            videoEl.play();
+                        }
+                    });
+                } catch (err) {
+                    videoEl.parentElement.innerHTML =
+                        '<span class="error-msg">Could not initialise DASH player: ' + err.message + '</span>';
+                }
+            }
+
+            videoEl.addEventListener('mouseenter', function () {
+                if (!player) {
+                    pendingPlay = true;
+                    initPlayer();
+                } else if (ready) {
+                    videoEl.play();
+                } else {
+                    pendingPlay = true;
+                }
+            });
+
+            videoEl.addEventListener('mouseleave', function () {
+                pendingPlay = false;
+                videoEl.pause();
+            });
+        });
+    });
+    </script>
+</body>
+</html>
